@@ -1,3 +1,15 @@
+## 一个引入quasar的开始模版
+todo: fix the css style for the index page
+首先安装依赖    
+```shell
+pnpm add quasar @quasar/extras
+pnpm add -D @quasar/vite-plugin sass@1.32.12
+```
+然后编辑main.js
+https://quasar.dev/start/vite-plugin
+
+把全局的css删一删就行了
+
 # Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
@@ -15,5 +27,6 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 
 You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
 
-## ybw
-todo: fix the css style for the index page
+
+
+
